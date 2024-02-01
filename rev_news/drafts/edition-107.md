@@ -35,7 +35,7 @@ This edition covers what happened during the months of December 2023 and January
 
   He was trying to cherry-pick changes from one repo (A) to another (B),
   while both A and B came from the same original TFS server but with
-  different set of changes. He was disappointed though because some
+  a different set of changes. He was disappointed though because some
   files that had been moved in repo A were matched up by the rename
   detection mechanism to files other than what he expected in repo B,
   and he wondered if the reason for this was the new 'ort' merge
@@ -192,7 +192,7 @@ __Light reading__
 + [Version Control for Machine Learning](https://dagshub.com/blog/version-control/)
   by Nikitha Narendra on DagsHub Blog. The [DAGsHub](https://dagshub.com/) service was
   first mentioned in [Git Rev News Edition #72](https://git.github.io/rev_news/2021/02/27/edition-72/);
-  further articles about this web platform for data version control
+  further articles about this web platform for data version control are
   linked in [Edition #85](https://git.github.io/rev_news/2022/03/31/edition-85/),
   [#96](https://git.github.io/rev_news/2023/02/28/edition-96/),
   and [#97](https://git.github.io/rev_news/2023/03/31/edition-97/).
@@ -220,7 +220,7 @@ __Git tools and sites__
 + [Git-RDM](https://github.com/ctjacobs/git-rdm) had intended to be
   a Research Data Management (RDM) plugin for the Git version control system.
   It interfaces Git with data hosting services to manage the curation of version controlled files
-  using persistent, citable repositories.  Access to hosting services is managed with
+  using persistent, citable repositories. Access to hosting services is managed with
   [PyRDM library](https://pyrdm.readthedocs.io/), which supports Figshare, Zenodo,
   and (in a limited fashion) DSpace-based services using SWORD protocol version 2.
   Written in Python, last released in 2016.
@@ -239,7 +239,7 @@ __Git tools and sites__
       There the repository is displayed as a tree where the root of the repository is the center,
       directories are branches and files are leaves. Contributors to the source code
       appear and disappear as they contribute to specific files and directories.
-    + Has different purpose than [Git History.xyz](https://githistory.xyz/)
+    + Has a different purpose than [Git History.xyz](https://githistory.xyz/)
       web app that allows to quickly browse the history of files in any git repo,
       mentioned in [Git Rev News Edition #48](https://git.github.io/rev_news/2019/02/27/edition-48/)
       and [#105](https://git.github.io/rev_news/2023/11/30/edition-105/).
